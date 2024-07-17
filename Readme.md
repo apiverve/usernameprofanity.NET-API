@@ -1,4 +1,4 @@
-Username Profanity Checker API
+Username Profanity API
 ============
 
 Username Profanity Checker is a simple tool for checking if a username is inappropriate or profane. It returns if the username is inappropriate or profane.
@@ -7,7 +7,7 @@ Username Profanity Checker is a simple tool for checking if a username is inappr
 ![Code Climate](https://img.shields.io/badge/maintainability-B-purple)
 ![Prod Ready](https://img.shields.io/badge/production-ready-blue)
 
-This is a .NET Wrapper for the [Username Profanity Checker API](https://apiverve.com/marketplace/api/usernameprofanity)
+This is a .NET Wrapper for the [Username Profanity API](https://apiverve.com/marketplace/api/usernameprofanity)
 
 ---
 
@@ -15,17 +15,17 @@ This is a .NET Wrapper for the [Username Profanity Checker API](https://apiverve
 
 Using the .NET CLI:
 ```
-dotnet add package APIVerve.API.UsernameProfanityChecker
+dotnet add package APIVerve.API.UsernameProfanity
 ```
 
 Using the Package Manager:
 ```
-nuget install APIVerve.API.UsernameProfanityChecker
+nuget install APIVerve.API.UsernameProfanity
 ```
 
 Using the Package Manager Console:
 ```
-Install-Package APIVerve.API.UsernameProfanityChecker
+Install-Package APIVerve.API.UsernameProfanity
 ```
 
 From within Visual Studio:
@@ -33,8 +33,8 @@ From within Visual Studio:
 1. Open the Solution Explorer.
 2. Right-click on a project within your solution.
 3. Click on Manage NuGet Packages...
-4. Click on the Browse tab and search for "APIVerve.API.UsernameProfanityChecker".
-5. Click on the APIVerve.API.UsernameProfanityChecker package, select the appropriate version in the right-tab and click Install.
+4. Click on the Browse tab and search for "APIVerve.API.UsernameProfanity".
+5. Click on the APIVerve.API.UsernameProfanity package, select the appropriate version in the right-tab and click Install.
 
 
 ---
@@ -48,17 +48,17 @@ You can get it by signing up at [https://apiverve.com](https://apiverve.com)
 
 ## Usage
 
-The Username Profanity Checker API documentation is found here: [https://docs.apiverve.com/api/usernameprofanity](https://docs.apiverve.com/api/usernameprofanity).  
+The Username Profanity API documentation is found here: [https://docs.apiverve.com/api/usernameprofanity](https://docs.apiverve.com/api/usernameprofanity).  
 You can find parameters, example responses, and status codes documented here.
 
 ### Setup
 
 ###### Authentication
-Username Profanity Checker API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
+Username Profanity API uses API Key-based authentication. When you create an instance of the API client, you can pass your API Key as a parameter.
 
 ```
 // Create an instance of the API client
-var apiClient = new UsernameProfanityCheckerAPIClient("[YOUR_API_KEY]", true);
+var apiClient = new UsernameProfanityAPIClient("[YOUR_API_KEY]", true);
 ```
 
 ---
