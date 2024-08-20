@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new usernameprofanityQueryOptions {
+var queryOptions = new UsernameProfanityQueryOptions {
   username = "b00bs"
 };
 ```
@@ -96,7 +96,8 @@ if(response.error != null) {
   "data": {
     "username": "b00bs",
     "isProfane": true
-  }
+  },
+  "code": 200
 }
 ```
 
